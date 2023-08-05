@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.calculator{
+    height:200px;
+    width: 300px;
+    background-color: white;
+    /* padding: 50px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: baseline;
+}
+.num_and_operation > * {
+    margin-bottom: 15px ;
+}
+.num_and_operation input{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+select{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 20%;
+    background-color: aqua;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+   
+    background-color: aqua;
+}

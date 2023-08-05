@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Result</title>
+    <link rel="stylesheet" href="../static/css/result.css">
+</head>
+<body>
+
+    <!-- main container -->
+    <div class="main-container">
+        
+        <!-- search result for-->
+        <div class="search-div">
+            <p>Search result for {{search_result}}</p>
+        </div>
+
+
+        <!-- make loop -->
+
+        {% for item in searching %}
+        <!-- main card -->
+        <div class="main-box">
+
+            <!-- divide main box into two boxes -->
+            <div class="two-section">
+
+                <!-- first box for image -->
+                <div class="sec-one-img">
+                    
+                </div>
+                
+                <!-- Second box for content -->
+                <div class="sec-two-content">
+
+                    <!-- title -->
+                    <div class="title">{{item['title']}}</div>
+
+                    <!-- Rating and reviews -->
+                    <div class="ratingAndreview">
+
+                        <!-- rating -->
+                        <div class="rating">
+                           <p>{{item['rating']}}</p> 
+                        </div>
+
+                        <!-- review -->
+                        <div class="review">
+                            <p>{{item['people_count']}}</p>
+                        </div>
+                    
+                    <!-- content -->
+                    {{if type(item["key_spec"]) == list:
+                        for i in item:}}
+                    <div class="content">    
+                        <li>{{i}}</li> 
+                    </div>
+
+                    <!-- price -->
+                    <div class="price">
+                       <p>{{item['price']}}</p>
+                    </div>
+
+                    <!-- buy link -->
+                    <div class="buy_link">
+                        <p>{{item['product_link']}}</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div> 
+
+    
+
+</body>
+</html>

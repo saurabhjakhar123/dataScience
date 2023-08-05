@@ -1,0 +1,39 @@
+INFO:root:First logging print
+ERROR:root:OOPs error
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:OOPs error
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:critical
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:critical
+INFO:root:Logging info
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:critical
+INFO:root:Logging info
+INFO:root:First logging print
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:critical
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info
+INFO:root:Logging info_1
+INFO:root:Logging info_1
+INFO:root:First logging print
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:critical
+INFO:root:First logging print
+WARNING:root:warning
+ERROR:root:OOPs error
+CRITICAL:root:critical
